@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-Neste projeto, meu objetivo foi aplicar os conhecimentos de **storytelling com dados** para realizar uma pesquisa de mercado. Decidi abrir uma pequena cafeteria com **garçons robôs** em Los Angeles. Como se trata de um investimento alto, meus parceiros pediram que eu analisasse o mercado para avaliar a viabilidade do negócio e apresentar recomendações aos investidores.
+Neste projeto, meu objetivo foi aplicar os conhecimentos de **storytelling com dados** para realizar uma pesquisa de mercado. Como se trata de um investimento alto, meus parceiros pediram que eu analisasse o mercado para avaliar a viabilidade do negócio e apresentar recomendações aos investidores que decidiram abrir uma pequena cafeteria com **garçons robôs** em Los Angeles.
 
 O foco principal foi:
 
