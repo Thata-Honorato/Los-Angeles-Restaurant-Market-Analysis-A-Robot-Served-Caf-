@@ -1,76 +1,81 @@
-# Sprint 10 – Pesquisa de Mercado: Cafeteria com Garçons Robôs em Los Angeles
+# 📊 Los Angeles Restaurant Market Analysis: A Robot-Served Café
 
-## Descrição do Projeto
+## Project Overview
 
-Neste projeto, meu objetivo foi aplicar os conhecimentos de **storytelling com dados** para realizar uma pesquisa de mercado. Como se trata de um investimento alto, meus parceiros pediram que eu analisasse o mercado para avaliar a viabilidade do negócio e apresentar recomendações aos investidores que decidiram abrir uma pequena cafeteria com **garçons robôs** em Los Angeles.
+This project explores the restaurant market in Los Angeles to assess the feasibility of opening a small café featuring **robot servers**. The goal was to analyze the existing food service landscape, identify market patterns, and develop data-driven recommendations for potential investors.
 
-O foco principal foi:
+The project emphasizes **exploratory data analysis (EDA), data visualization, and data storytelling** to turn raw data into actionable business insights.
 
-- Entender o perfil dos restaurantes existentes em LA.  
-- Avaliar proporções de diferentes tipos de estabelecimentos.  
-- Identificar características de redes de restaurantes e seus padrões de assentos.  
-- Fornecer recomendações sobre o tipo de restaurante e tamanho mais apropriado.  
-- Preparar uma apresentação clara e estruturada para investidores.
+## Business Objectives
 
----
+- Analyze the distribution of restaurant types across Los Angeles.
+- Compare chain establishments with independent restaurants.
+- Investigate seating capacity patterns among restaurant chains.
+- Identify the most common restaurant types and their average seating capacity.
+- Explore streets with the highest and lowest concentrations of restaurants.
+- Develop recommendations for the café concept, seating capacity, and potential expansion into a chain.
+- Communicate findings through a presentation designed for investors.
 
-## Dados Utilizados
+## Dataset
 
-### Restaurantes (`rest_data_us_upd.csv`)
+The analysis used `rest_data_us_upd.csv`, containing information about restaurants in Los Angeles.
 
-- **object_name** — nome do estabelecimento.  
-- **chain** — se o estabelecimento é de rede (`TRUE`/`FALSE`).  
-- **object_type** — tipo de estabelecimento.  
-- **address** — endereço completo.  
-- **number** — número de assentos.
+| Column | Description |
+|---|---|
+| `object_name` | Name of the establishment |
+| `chain` | Indicates whether the establishment belongs to a chain |
+| `object_type` | Type of establishment |
+| `address` | Full street address |
+| `number` | Number of seats |
 
----
+## Methodology
 
-## Passos do Projeto
+### 1. Data Preparation
+- Loaded the dataset into a Pandas DataFrame.
+- Inspected data types and checked for missing values and duplicates.
+- Extracted street names from addresses to support geographic analysis.
 
-### Passo 1: Preparação dos Dados
-- Carreguei os dados em um DataFrame e verifiquei os tipos de dados de cada coluna.  
-- Tratei valores ausentes ou duplicados quando necessário.  
-- Separei o nome da rua em uma coluna específica para análise geográfica.
+### 2. Exploratory Data Analysis
+- Analyzed the distribution of restaurant types.
+- Compared chain and independent establishments.
+- Investigated seating capacity patterns among restaurant chains.
+- Calculated average seating capacity by establishment type.
+- Identified streets with the highest number of restaurants.
+- Examined streets with only one restaurant.
+- Analyzed seating capacity on streets with high restaurant concentrations.
 
-### Passo 2: Análise de Dados
-- Investiguei a proporção de diferentes tipos de estabelecimentos e construí gráficos para visualização.  
-- Analisei a proporção de restaurantes de rede versus independentes.  
-- Identifiquei padrões de assentos em redes de restaurantes: muitos estabelecimentos com poucos assentos ou poucos estabelecimentos com muitos assentos?  
-- Calculei o número médio de assentos por tipo de restaurante e destaquei qual tipo possui, em média, o maior número de assentos.  
-- Analisei as ruas com maior número de restaurantes e criei gráficos de distribuição.  
-- Identifiquei ruas com apenas um restaurante.  
-- Avaliei a distribuição do número de assentos em ruas com muitos restaurantes e tirei conclusões sobre padrões de capacidade.
+### 3. Conclusions and Recommendations
+- Evaluated which establishment type could best suit the proposed robot-served café.
+- Used seating capacity analysis to inform recommendations about the café's size.
+- Considered the potential for developing a chain of robot-served cafés.
+- Prepared an investor-oriented presentation summarizing the analysis and recommendations.
 
-### Passo 3: Conclusão e Recomendações
-- Baseado nos resultados, recomendei **o tipo de restaurante mais apropriado**, o número médio de assentos ideal e a viabilidade de desenvolver uma rede de cafeterias.  
-- Preparei uma **apresentação para investidores** em PDF, destacando insights estratégicos e gráficos claros que comunicam minhas recomendações de forma eficaz.
+## Tools and Technologies
 
----
+- **Python**
+- **Pandas** — data preparation and analysis
+- **Jupyter Notebook** — interactive analysis and documentation
+- **Seaborn** — statistical data visualization
+- **Matplotlib** — charts and plots
+- **Data Storytelling** — communicating insights and business recommendations
 
-## Ferramentas e Formato
-- Todo o projeto foi desenvolvido em **notebook Jupyter**.  
-- O código está em células de código (`code`) e explicações em células de texto (`markdown`).  
-- Organizei o notebook com títulos, seções e comentários detalhados para facilitar a compreensão.
+## Project Deliverables
 
----
+- **Jupyter Notebook:** Data preparation, exploratory analysis, visualizations, and conclusions.
+- **Investor Presentation (PDF):** Key findings and strategic recommendations.
 
-## Critérios de Avaliação
+*Add links to your notebook and PDF presentation here.*
 
-Meu projeto foi avaliado com base em:
+## Skills Demonstrated
 
-- Preparação e limpeza de dados para análise.  
-- Construção de gráficos adequados aos dados e interpretação correta.  
-- Uso de bibliotecas de visualização, incluindo **Seaborn**.  
-- Estruturação de uma apresentação clara para investidores.  
-- Comunicação eficaz da mensagem principal com base nos dados.  
-- Organização do notebook e clareza do código.  
-- Conclusões fundamentadas em análises e insights.  
-- Comentários detalhados em cada passo do projeto.
+- Data cleaning and preprocessing
+- Exploratory data analysis (EDA)
+- Data visualization and interpretation
+- Geographic data analysis
+- Business-oriented analytical thinking
+- Data storytelling and presentation design
+- Translating analytical findings into actionable recommendations
 
----
+## Key Takeaway
 
-## Conclusão
-
-Com este projeto, consegui aplicar técnicas de **análise de dados e storytelling** para transformar dados brutos em insights acionáveis. Desenvolvi recomendações estratégicas sobre o tipo de restaurante e a capacidade ideal para garantir que o projeto da cafeteria com garçons robôs em Los Angeles seja viável e atraente para investidores.
-
+This project demonstrates how exploratory data analysis and data storytelling can support business decisions by identifying market patterns, evaluating potential opportunities, and communicating evidence-based recommendations to stakeholders.
